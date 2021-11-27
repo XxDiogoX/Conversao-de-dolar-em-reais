@@ -18,8 +18,7 @@ public class Main {
 		System.out.print("Value: ");
 		double valor2 = sc.nextDouble();
 		c1.setValor(valor2);
-		double total = c1.valorTotal();
-		System.out.println(total);
+		System.out.println(c1.valorTotal());
 		
 		
 		
